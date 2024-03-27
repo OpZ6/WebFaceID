@@ -12,7 +12,7 @@ import com.azure.storage.blob.BlobServiceClientBuilder;
 
 @Component
 public class CloudStorage {
-    private static final String CONNECTION_STRING = "";
+    private static final String CONNECTION_STRING = "1";
 
     public void saveToCloud(byte[] image, String imageName) {
         // Create a BlobServiceClient object using a connection string
