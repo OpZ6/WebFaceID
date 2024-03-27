@@ -12,7 +12,7 @@ import com.azure.storage.blob.BlobServiceClientBuilder;
 
 @Component
 public class CloudStorage {
-    private static final String CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=luotiancheng;AccountKey=A4j9BTwsaLiXH5SE10+uoikQDxeNcswYhdQiV1JLNq+BovRcuh3cMbscmj0qUcibTJ54XTSPG7wP+AStJz5pAQ==;EndpointSuffix=core.windows.net";
+    private static final String CONNECTION_STRING = "";
 
     public void saveToCloud(byte[] image, String imageName) {
         // Create a BlobServiceClient object using a connection string
