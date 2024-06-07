@@ -45,6 +45,7 @@ public class ImageController {
         return new ResponseEntity<>("Successfully uploaded image", HttpStatus.OK);
     }
 
+    @SuppressWarnings("Unused")
     private void saveImageToFile(byte[] image, String imageName) throws IOException {
         File path = new File("./images/");
         if (!path.exists()) {
